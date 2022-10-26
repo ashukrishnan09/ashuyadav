@@ -16,11 +16,25 @@ import Player from './Components/Player';
 function App() {
   const [songs] = useState([
     {
+      title: "Faded",
+      artist: "Iselin",
+      img_src: "./images/song-5.jpg",
+      src: "./music/Faded.mp3"
+    },
+    {
       title: "Forget me too ft. Halsey",
       artist: "Machine Gun Kelly",
-      img_src: "./images/song-1.jpg",
+      img_src: "./images/song-5.jpg",
       src: "./music/on-n-on.mp3"
     },
+
+    {
+      title: "In Your Eyes",
+      artist: "ft Alida",
+      img_src: "./images/song-5.jpg",
+      src: "./music/In-your-eye.mp3"
+    },
+    
     {
       title: "Song 2",
       artist: "Artist 2",
